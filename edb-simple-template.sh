@@ -21,15 +21,15 @@ while true; do
 
 	result=$(whoami)
 	UNA=$(awk 'BEGIN { print ENVIRON["HOSTNAME"] }')
-	extip=$(curl -s ifconfig.me)
-	intip=$(ip -o -f inet addr show | awk '/scope global/ {print $4}')
-	mypwd=$(awk 'BEGIN { print ENVIRON["PWD"] }')
+	EXTIP=$(curl -s ifconfig.me)
+	INTIP=$(ip -o -f inet addr show | awk '/scope global/ {print $4}')
+	MYPWD=$(awk 'BEGIN { print ENVIRON["PWD"] }')
 	OP=$(uptime | awk '{print $3 " days";}')
 
 	case $CHOICE in
 	"1)")
 
-		result="Current User: $result \nOperating Sys: $UNA \nUptime: $OP \nExt IP: $extip \nInt IP: $intip \nCurrent Dir: $mypwd"
+		result="Current User: $result \nOperating Sys: $UNA \nUptime: $OP \nExt IP: $EXTIP \nInt IP: $INTIP \nCurrent Dir: $MYPWD"
 		;;
 	"2)")
 		result="OPTION 2"
