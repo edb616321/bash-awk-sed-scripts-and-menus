@@ -82,12 +82,10 @@ Here is a brief list of technologies used.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
+Please feel free to contact me with any ideas or sample scripts that you wish to contribute. Please keep the technologies confined to the existing stack. 
 ### Prerequisites
 
-ALL of these examples are based on Linux. The Centos and Ubuntu distributions are preferred 
+ALL of these examples are based on Linux. The Centos and Ubuntu distributions are preferred. 
 
 ### Installation
 
