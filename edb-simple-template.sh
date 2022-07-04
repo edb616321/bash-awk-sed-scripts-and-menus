@@ -34,33 +34,26 @@ case $CHOICE in
 		result="Current User: $result \nOperating Sys: $UNA \nUptime: $OP \nExt IP: $extip \nInt IP: $intip \nCurrent Dir: $mypwd" 
 	;;
 	"2)")   
-	  #     
 		result="OPTION 2"
 	;;
-
 	"3)")   
 		result="OPTION 3"
-        ;;
-
+  ;;
 	"4)")   
 	  result="OPTION 4"
 		#read -r result < result
-        ;;
-
+  ;;
 	"5)")   
     result="OPTION 5"
 		#read -r result < result
-        ;;
-
+  ;;
 	"6)")   
 		result="OPTION 6"
 		#read -r result < result
-        ;;
-
+  ;;
 	"9)") exit
-        ;;
+  ;;
 esac
 whiptail --msgbox "$result" 20 78
 done
 exit
-
