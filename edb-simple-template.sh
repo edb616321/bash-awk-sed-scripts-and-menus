@@ -49,7 +49,6 @@ case $CHOICE in
 
 	"5)")   
     result="OPTION 5"
-
 		#read -r result < result
         ;;
 
